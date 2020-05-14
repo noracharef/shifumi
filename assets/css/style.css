@@ -1,6 +1,47 @@
-body {
- background-image: url("../img/background.jpg");
- background-size: cover;
-   
+body{
+  background-image: url(../img/2740217.jpg);
+  background-size: cover;
 }
-    
+h1{
+  display: flex;
+  justify-content: center;
+  color: #2F3131;
+  border: #2F3131 solid;
+  background-color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family: 'Limelight', cursive;
+  font-size: 80px;
+}
+.game{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.block1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.blockPurple{
+  background-color: white;
+  border: #2F3131 solid;
+  width: 400px;
+  height: 250px;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background-color: #2F3131;
+  margin-bottom: 0px;
+}
+#playerRock, #playerPaper, #playerScissors {
+  width: 250px; 
+}
