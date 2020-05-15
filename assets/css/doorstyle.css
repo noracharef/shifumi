@@ -1,0 +1,43 @@
+body{
+    background-image: url(../img/background1.jpg);
+    background-size: cover;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    color: #2F3131;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:30px;
+    text-align: center;
+    font-family: 'Limelight', cursive;
+    font-size: 80px;
+  }
+
+  p{
+    display: flex;
+    justify-content: center;
+    color: #2F3131;
+    background-color:#A1F0EB;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:20px;
+    text-align: center;
+    font-family: 'Limelight', cursive;
+    font-size: 25px;
+  }
+
+  button{
+    display: flex;
+    justify-content: center;
+    color: #2F3131;
+    background-color:#FFBABF;
+    border: none;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:20px;
+    text-align: center;
+    font-family: 'Limelight', cursive;
+    font-size: 25px;
+  }

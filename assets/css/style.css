@@ -25,11 +25,21 @@ h1{
   margin-left: 10%;
   margin-right: 10%;
 }
-.blockPurple{
+#droppable{
   background-color: white;
   border: #2F3131 solid;
   width: 400px;
   height: 250px;
+}
+.blockComputer{
+  background-color: white;
+  border: #2F3131 solid;
+  width: 400px;
+  height: 250px;
+}
+#blockWhite, .blockComputer{
+  display: flex;
+  justify-content: space-around;
 }
 h2{
   display: flex;
@@ -42,6 +52,51 @@ h2{
   background-color: #2F3131;
   margin-bottom: 0px;
 }
-#playerRock, #playerPaper, #playerScissors {
-  width: 250px; 
+#img{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  color: #2F3131;
+  background-color:#FFBABF;
+  border: none;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding:20px;
+  text-align: center;
+  font-family: 'Limelight', cursive;
+  font-size: 25px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  color: #2F3131;
+  border: #2F3131 solid;
+  background-color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family: 'Limelight', cursive;
+  font-size: 80px;
+}
+
+#victory{
+  background-image: url(../img/background2.jpg);
+  background-size: cover;
+  height: 900;
+ 
+}
+#lose{
+  background-image: url(../img/background2.jpg);
+  background-size: cover;
+
+}
+#tie{
+  background-image: url(../img/background2.jpg);
+  background-size: cover;
+ 
 }

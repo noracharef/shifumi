@@ -15,14 +15,26 @@
       <div class="blockBlack">
         <h2>Player</h2>
       </div>
-      <div class="blockPurple">
+      <div id="droppable">
       </div>
     </article>
     <article class="block1" id="computer">
       <div class="blockBlack">
         <h2>A.I</h2>
       </div>
-      <div class="blockPurple">
+      <div class="blockComputer" >
+        <div id="computerPick">
+          <div id="computerRock">
+          <img src="assets/img/pierre.png" alt="rock" />
+        </div>
+        <div id="computerPaper">
+          <img src="assets/img/feuille.png" alt="paper" />
+        </div>
+        <div id="computerSissors">
+          <img src="assets/img/ciseau.png" alt="sissors" />
+        </div>
+
+        </div>
       </div>
     </article>
     <article class="">
@@ -32,16 +44,45 @@
       </div>
     </article>
   </section>
-<section>
-  <article class="img">
-    <img id="playerRock" src="assets/img/pierre.png" alt="rock" /> 
-    <img id="playerPaper"src="assets/img/feuille.png" alt="paper" />
-    <img id="playerScissors" src="assets/img/ciseau.png" alt="sissors" />
-  </article>
-</section>
+  <section id="shifumi">
+    <article id="img">
+      <div class="choice answer" id="playerRock">
+        <img src="assets/img/pierre.png" alt="rock" />
+      </div>
+      <div class="choice answer" id="playerPaper">
+        <img src="assets/img/feuille.png" alt="paper" />
+      </div>
+      <div class="choice answer" id="playerSissors">
+        <img src="assets/img/ciseau.png" alt="sissors" />
+      </div>
+    </article>
+  </section>
+
+  <section id="victory">
+    <article>
+    <p></p>
+    <button>Rejouer !</button>
+    </article>
+  </section>
+
+  <section id="tie">
+    <article>
+    <p> </p>
+    <button>Rejouer !</button>
+    </article>
+  </section>
+
+  <section id="lose">
+    <article>
+    <p></p>
+    <button>Rejouer !</button>
+    </article>
+  </section>
 
 
-  <script src="assets/js/jquery 3.5.1.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
   <script src="assets/js/jquery-ui.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
